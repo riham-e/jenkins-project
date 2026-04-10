@@ -13,7 +13,7 @@ bat "mvn test"
 }
 stage('Package') {
 steps {
-bat "mvn package"
+bat "mvn packages"
 }
 }
 }
